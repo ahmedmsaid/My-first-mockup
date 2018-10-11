@@ -1,0 +1,59 @@
+
+
+/* Base Style*/
+
+html,body,div,span,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+abbr,address,cite,code,
+del,dfn,em,img,kbd,a,samp,
+small,strong,sub.sup,var,
+b,i,
+dl,dd,dt,ol,ul,li,
+fieldset,caption,tbody,tfoot,thead,tr,td,th,
+article,aside,section,canvas,details,figcaption,summary,
+time,mark,audio,video {
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background-color: transparent;
+}
+html {
+    font-size: 1em;
+    line-height: 1.4em;
+    font-family: 'Hind' , sans-serif;
+}
+
+::-moz-selection {
+    background-color: #b3d4fc;
+    box-shadow: none;
+}
+
+::-webkit-selection {
+        background-color: #b3d4fc;
+        box-shadow: none;
+}
+
+::selection{
+    background-color: #b3d4fc;
+    box-shadow: none;
+}
+
+/* End Base*/
+
+/* Start style header */
+
+header {
+    background: url('../img/Shape 6.png') no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;    
+    background-size: cover;
+    height: 700px;
+
+}
+
+/* End style  header */
